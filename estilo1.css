@@ -1,0 +1,70 @@
+/* Estilos para la página de inicio */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #EFECCA;
+
+}
+
+.container h3 {
+    color: gray;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container p {
+    color: #2B2D42;
+    font-style: italic;
+}
+
+.footer {
+    background-color: lightblue;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+  }
+
+/* Estilos para la página de galería */
+.container img {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+.container img:hover {
+    border: 3px solid #F7FF58;
+}
+
+/* Estilos para la página de contacto */
+.container form .form-group label {
+    font-weight: bold;
+}
+
+.container form .btn {
+    background-color: #007bff;
+    color: #fff;
+}
